@@ -133,6 +133,7 @@ def calculate_energy(appliances):
     return round(total_energy, 2)
 
 # Energy saving tips
+
 def get_energy_tips(energy_consumption):
     tips = []
     if energy_consumption > 15:
